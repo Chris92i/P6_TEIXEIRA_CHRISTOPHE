@@ -6,7 +6,9 @@ const mongoose = require('mongoose')
 //mise en place du schema sauce
 const sauceSchema = mongoose.Schema({
     id : { type : ObjectID, required: true},
+    userId: ​{type : String, required: true},
     name: { type: String, required: true },
+    
 
 
 })
